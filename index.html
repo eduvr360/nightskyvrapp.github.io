@@ -12,25 +12,23 @@
             <img id="sky" src="img/sky.jpg">
         </a-assets>
         
-      <a-sky src="#sky" radius="10700" ></a-sky>
+      <a-sky src="#sky" radius="10700" rotation="0 98 0" ></a-sky>
       
 <!--        Ground-->
-        <a-plane color="#14401a"
+        <a-plane color="#0e1a11"
                  src="#grass"
                  repeat="1000 1000"
                  height="4000"
                  width="4000"
+                 roughness="0.7"
                  rotation="-90 0 0">
         </a-plane>
         
         
         
-        <a-box
-               color="#242324"
-               height="1"
-               width="1"
-               depth="1"
-               position="0 1a -5"></a-box>
+        <a-box material="color: #787d4d;"               
+               roughness="0.5"
+               position="0 1 -5"></a-box>
         
         
         <a-sphere radius="13" 
