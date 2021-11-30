@@ -9,9 +9,10 @@
     <a-scene>
         <a-assets>
             <img id="grass" src="img/grass.jpg">
+            <img id="sky" src="img/sky.jpg">
         </a-assets>
         
-        <a-sphere side="double" color="#1a173b" radius=10700></a-sphere>
+      <a-sky src="#sky" radius="10700" ></a-sky>
       
 <!--        Ground-->
         <a-plane color="#14401a"
@@ -19,8 +20,7 @@
                  repeat="1000 1000"
                  height="4000"
                  width="4000"
-                 rotation="-90 0 0"
-                 roughness="0.1">
+                 rotation="-90 0 0">
         </a-plane>
         
         
